@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer-display">00 : 00 : 00 : 00</div>
+      <ul class="laps"></ul>
+
+      <div class="action">
+        <button id="startTimer" onclick="start()">Start</button>
+        <button id="pauseTimer" onclick="pause()">Pause</button>
+        <button id="resetTimer" onclick="reset()">Reset</button>
+        <button id="restartTimer" onclick="restart()">Restart</button>
+        <button id="lap" onclick="lap()">Lap</button>
+        <button id="resetlap" onclick="resetlap()">Reset Laps</button>
+      </div>
+      <p>STOPWATCH</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
